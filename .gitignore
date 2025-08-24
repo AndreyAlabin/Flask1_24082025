@@ -1,0 +1,10 @@
+.idea
+.venv
+__pycache__
+*.pyc
+*env
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+.git
