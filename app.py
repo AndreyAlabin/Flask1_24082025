@@ -1,7 +1,8 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.config['JSON_AS_ASCII']=False
+# app.config['JSON_AS_ASCII']=False
+app.json.ensure_ascii = False
 
 about_me = {
     "name": "Андрей",
